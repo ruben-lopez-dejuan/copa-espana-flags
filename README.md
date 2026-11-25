@@ -1,8 +1,11 @@
 # Recursos para el streaming del Campeonato de España
 
-Archivos para la retransmisión del Campeonato de España de speedcubing 2026 (Barakaldo, 5-7 de diciembre),
-hecha con el paquete gráfico de la WCA en Singular.live. Todo se enlaza desde Singular con la URL "raw"
-de GitHub:
+Archivos y documentación para la retransmisión del Campeonato de España de speedcubing 2026 (Barakaldo,
+5-7 de diciembre), hecha con el paquete gráfico de la WCA en Singular.live.
+
+**Para realizar la retransmisión, empezar por la [chuleta de realización](docs/chuleta-realizacion.md).**
+
+Las imágenes y datos se enlazan desde Singular con la URL "raw" de GitHub:
 
 ```
 https://raw.githubusercontent.com/ruben-lopez-dejuan/recursos-streaming-nacional/main/<ruta del archivo>
@@ -16,7 +19,13 @@ https://raw.githubusercontent.com/ruben-lopez-dejuan/recursos-streaming-nacional
 | `logos/` | Logos para fondo oscuro, recortados sin márgenes | Pantallas de logos, Global Data |
 | `logos/originales/` | Todas las versiones originales de los logos del Campeonato, la AES y la WCA | Por si hace falta otra versión |
 | `competitor_facts.json` | Datos curiosos de cada competidor, por WCA ID | Global Data → Player Card Data → Fact URL |
+| `docs/chuleta-realizacion.md` | Chuleta del operador: horario, Copa de España, playlists, qué hace cada overlay, favoritos por prueba | El día del campeonato |
+| `docs/prompt-chatgpt.md` | Contexto del proyecto para pedir ayuda a otro asistente (desfasado: es de antes de montar la Copa entera) | Solo como referencia |
 | `docs/banderas.png` | Vista previa de las banderas | Este README |
+| `copa/bracket.tsv` | Los 12 equipos de la Copa con semilla, bandera, nombre y media | Para pegar en la pestaña Bracket de la hoja H2H |
+| `copa/impresion/` | Cuadro de la Copa para imprimir (`copa-espana-2026.pdf`), su HTML y el script que lo genera (`python generar.py`) | Impresión |
+| `datos/generar_facts.py` | Script que genera `competitor_facts.json` desde el WCIF y los resultados de Campeonatos de España anteriores | Antes del evento, para regenerar los datos curiosos |
+| `datos/competidores-sin-foto.csv` | Competidores (WCA ID, nombre, mejor ranking nacional) a los que falta foto para la Player Card | Para conseguir las fotos |
 
 ### Logos
 
