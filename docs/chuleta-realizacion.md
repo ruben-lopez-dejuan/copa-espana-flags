@@ -91,6 +91,8 @@ Banderas: `../../../../../../../ruben-lopez-dejuan/recursos-streaming-nacional/m
 
 En cada partido: los tiempos salen al pulsar Tab; nombres y banderas, con **Update**. Al acabar, resultado en la hoja H2H y **Update Bracket**.
 
+Hoja H2H: **"WMCT Graphics - H2H Data Export (Spanish Championship)"**, la que preparó Kevin (accesos directos en las carpetas 11_COPA DE ESPAÑA y 08_STREAMING del Drive del Campeonato), pestaña Bracket. Competitor count 12. Columnas: octavos en F-I, cuartos en K-N, semifinales en P-S, final y 3.er puesto en U-X. Las columnas A-E (ronda previa) están ocultas y no se usan. La hoja antigua "Copa de España 2026 - H2H Data Export" ya no se usa.
+
 Los doce partidos ya están en la playlist Copa de España de Singular, en orden: Copa octavos 1 a 4, Copa cuartos 1 a 4, Copa semifinal 1 y 2, Copa 3er puesto y Copa final. Match: "Primera ronda", "Cuartos de final", "Semifinal", "Tercer puesto", "Final". Los tiempos están a 0,00 (no se ven hasta que se teclean).
 
 **Huecos por rellenar** ("Ganador P1", "Perdedor S1"…): no llevan bandera, así que solo sale el nombre. En cuanto se sepa el equipo, antes de emitir ese partido: seleccionar la fila, escribir el nombre en Team Name y la ruta con el código en Team Flag, Tab. Si el partido ya está al aire, pulsar **Update**. Para que la fila siga siendo reconocible, cambiar también Overlay Name (p. ej. "Copa cuartos 1: Andalucía-Murcia").
